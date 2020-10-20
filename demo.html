@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap" rel="stylesheet">
+	<!-- Icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Compiled and minified css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- custom css -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Security Swiper</title>
+  <link rel="shortcut icon" href="images/icon.png" type="image/png">
+
+</head>
+
+<body>
+
+<!-- Navigation Bar -->
+	<section class="fnavbar">
+  <nav class="nav-fixed">
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo" style="font-family: 'Euphoria Script', cursive; font-size: 60px; color: #EEC213;">Affine Hotels</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">dehaze</i></a>
+
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#Terms">Guidelines</a></li>
+        <li><a href="#app">Security Machine</a></li>
+        <li><a href="https://crypto.interactive-maths.com/affine-cipher.html">How it works ?</a></li>
+        <li><a href="index.html">Our Team</a></li>
+        <li><a href="#Contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav> <!-- For Mobile -->
+  <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#Terms">Guidelines</a></li>
+        <li><a href="#app">Security Machine</a></li>
+        <li><a href="https://crypto.interactive-maths.com/affine-cipher.html">How it works ?</a></li>
+        <li><a href="index.html">Services</a></li>
+        <li><a href="index.html">Our Team</a></li>
+        <li><a href="#Contact">Contact Us</a></li>
+  </ul>	
+	</section>
+
+
+<!-- How to use ? Guidelines -->
+  <section class="fabout" id="Terms">
+    <div class="section white">
+      <div class="row container">
+        <h2 class="header center">How to use Security Swiper ?</h2>
+        <p class="grey-text text-darken-3">
+          <ol>
+            <li>Dear Guest, Please kindly follow these security guidelines for your safety.</li>
+            <li>You have reached your room and you will find your hotel room key in the security swiper.</li>
+            <li>Initial access is granted to enter your room.</li>
+            <li>Now, Please enter your name for the first time only.</li>
+            <li>Click on Generate Password and kindly wait for 5 seconds.</li>
+            <li>Now, an encrypted password is generated using Encryption algorithms.</li>
+            <li>To lock your room, close the door properly and pull your hotel room key out of the swiper.</li>
+            <li>Kindly donot share your password and please remember this for next unlock of your hotel room.</li>
+            <li>When you want to unlock and enter back into your room, Slide the room key into the swiper machine.</li>
+            <li>Enter your last generated Password and click on Unlock the Door.</li>
+            <li>After accepting our terms & conditions, now click on Proceed to continue..</li>
+            <li>Have a Secured Stay !!</li>
+            <li>Thank you for choosing Affine Hotels !</li>
+          </ol>
+        </p><br>
+        <a href="#app" class="btn waves-effect waves-light center" style="background: #2B2B52 !important;">Proceed </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Parallax -->
+  <section class="fparallax">
+    <div class="parallax-container">
+      <div class="parallax"><img src="images/room.jpg"></div>
+    </div>
+  </section>
+
+
+<!-- Demo -->
+<section class="fdemo" id="app">
+  <div class="section white">
+      <div class="row container">
+  <h1 class="header center">Security Swiper</h1>
+  <br>
+    <h4 class="header">Your Name :</h4>
+    <br> 
+  <textarea id="inputText" name="p" rows="4" cols="50" wrap="soft" placeholder="Enter your name here.." style="border:2px solid #2B2B52;"></textarea> 
+  
+  <p>
+    <a class="btn waves-effect waves-light center" onclick="encrypt()" style="background: #2B2B52;">Generate Password</a>
+<br>
+  <h4 class="header" style="color: black;">Your Password for next unlock !</h4>
+  <br>
+  <textarea id="outputText" name="c" rows="4" cols="50" wrap="soft" placeholder="Your Password is.." style="border:3px solid #2B2B52;"></textarea></p>
+  <a onclick="decrypt()" class="btn waves-effect waves-light center" style="background: #2B2B52;">Unlock the Door</a>
+  <br> 
+</div>
+</div>
+</section>
+
+
+<!-- Footer Section -->
+  <section class="footer"  id="Contact">
+    <footer class="footer-one">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h4 style="color: #EEC213;">Contact Us</h4>
+            <p class="white-text">
+              <b>Affine Hotels</b>
+              <br>
+              <ul style="color: #EAF0F1;">
+                <li>Near Vijayawada - 522237, AndhraPradesh.</li>
+                <li>Ph : +91 94492058741</li>
+                <li>Tele : 0870 2439405</li>
+                <li>support@AffineHotels.com</li>
+              </ul>
+            </p>
+
+          </div>
+          <div class="col l6 s12">
+            <h4 style="color: #EEC213;">Social Media</h4>
+            <ul>
+              <li><a href="https://rb.gy/kjhuzi" target="_blank" style="color: #EAF0F1;">Facebook</a></li>
+              <li><a href="https://www.instagram.com/varaprasad_gudi/?hl=en" target="_blank" style="color: #EAF0F1;">Instagram</a></li>
+              <li><a href="https://twitter.com/Gudi_Varaprasad" target="_blank" style="color: #EAF0F1;">Twitter</a></li>
+              <li><a href="https://www.linkedin.com/in/varaprasad-gudi-0007b4129/" target="_blank" style="color: #EAF0F1;">Linkedin</a></li>
+              <li><a href="https://www.youtube.com/channel/UCR2gr-sBjqnH0gW-Ca6i7Hw?view_as=subscriber" target="_blank" style="color: #EAF0F1;">Youtube</a></li>
+              <li><a href = "mailto: gudi.varaprasad@gmail.com" target="_blank" style="color: #EAF0F1;">Send Email</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div>
+          <div class="row footer-two">
+            <div class="col l6 s12">
+              <p class="white-text center-align">&copy; 2020 Affine Hotels</p> 
+            </div>
+            <div class="col l6 s12">
+              <p class="white-text center-align">Designed by Gudi Varaprasad</p>
+            </div>
+          </div>
+        </div>
+    </footer>
+  </section> 
+
+<!-- JS Link Disabled -->
+	<section class="infomodal">
+		<div id="modal3" class="modal">
+			<div class="modal-content">
+				<h4 id="info-modal-heading">Sorry ! Link Disabled</h4>
+				<p id="info-modal-content">Thank you for choosing Affine Hotels !</p>
+			</div>
+			<div class="modal-footer">
+				<a href="#" class="modal-close waves-effect btn-flat">Close</a>
+			</div>
+		</div>
+	</section>
+
+</body>
+
+<!-- CDN jquery-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha512-k2WPPrSgRFI6cTaHHhJdc8kAXaRM4JBFEDo1pPGGlYiOyv4vnA0Pp0G5XMYYxgAPmtmv/IIaQA6n5fLAyJaFMA==" crossorigin="anonymous"></script>
+  <!-- CDN sweetalert-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- custom js-->
+    <script type="text/javascript" src="js/loader.js"></script>
+    <!-- demo js-->
+    <script type="text/javascript" src="js/app.js"></script>
+
+</html>

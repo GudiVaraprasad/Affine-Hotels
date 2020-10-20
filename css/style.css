@@ -1,0 +1,32 @@
+
+.nav-wrapper {
+	background-color: #2B2B52;
+}
+
+.slider .indicators .indicator-item.active {
+	background-color: #2B2B52;
+}
+
+.move {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.parallax-container {
+	min-height: 280px;
+	height: auto;
+}
+
+.icon-hotel {
+	color: #2B2B52;
+}
+
+.footer-one {
+	background: #2B2B52;
+}
+
+.footer-two {
+	background: #1a1a32;
+}
+
+

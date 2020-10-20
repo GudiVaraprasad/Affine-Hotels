@@ -1,4 +1,4 @@
- **WELCOME TO AFFINE HOTELS**
+# WELCOME TO AFFINE HOTELS
 
 ## Hotel Room Locking System
 
@@ -23,8 +23,8 @@ Access to the room is granted only if the guest swipes his key and enters the pa
   11. Have a Secured Stay !!
   12. Thank you for choosing Affine Hotels !
   
-  
-# [Project Demo](https://gudivaraprasad.github.io/Affine-Hotels/index.html)
-## [Source Code](https://github.com/GudiVaraprasad/Affine-Hotels/)
+
+<a href="https://gudivaraprasad.github.io/Affine-Hotels/index.html" target="_blank"><b>Project Demo</b></a>.
+<a href="https://github.com/GudiVaraprasad/Affine-Hotels/" target="_blank"><b>Source Code</b></a>.
 
    *&copy; 2020 GVP, All rights reserved*

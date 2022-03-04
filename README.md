@@ -28,4 +28,4 @@ Access to the room is granted only if the guest swipes his key and enters the pa
 <br>
 <a href="https://github.com/GudiVaraprasad/Affine-Hotels/" target="_blank"><b>Source Code</b></a>
 
-   *&copy; 2020 GVP, All rights reserved*
+   *&copy; 2020 GVP, No rights reserved*
